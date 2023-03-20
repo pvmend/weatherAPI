@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+   
+    <title>Weather Machine</title>
+</head>
+<header id = "titleWeather">Weather</header>
+<body>
+
+<div id=" searchBarDiv" >
+    <!-- <label for="currentWeather">Weather</label> -->
+
+
+    Search: <input type="text" name="city" id="searchText">
+</div>
+
+        <button id = "searchBtn">Enter</button>
+<div>
+    <ul id = "searchHistory">  </ul>
+
+   
+</div> 
+    <div id="weatherInfo" >
+        <h4 id = "searchedCity"> </h4>
+            <p id="searchedTime"></p>
+        
+            
+                </div>
+                    <div class = "fiveDay">
+                        5 DAY FORECAST
+                       </div>
+
+        <div id = "forecast"> 
+            <div id = "weatherCards">
+                
+            </div>
+        </div>
+
+<!-- <div id = "searchBarDiv">
+    Search: <input type="search" name="city">
+    <button id = "citySearch">Enter</button>
+    <input type="submit" value="Submit">
+</div> -->
+
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>
