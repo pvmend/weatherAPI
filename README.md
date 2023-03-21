@@ -1,7 +1,7 @@
 # 06 Server-Side APIs: Weather Dashboard
 
 
-
+https://pvmend.github.io/weatherAPI/
 
 ## Description 
 
@@ -17,6 +17,11 @@ Created a webpage through Github. (See link above).
 The following image shows the web application's appearance and functionality:
 
 ![An example of the weather app making an ](Assets/images/weatherApp06.png)
+
+## Credits 
+
+openweather.org 
+Paul Mendoza
 
 ## License
 
